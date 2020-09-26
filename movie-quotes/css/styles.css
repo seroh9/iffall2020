@@ -1,0 +1,61 @@
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    text-indent: 40px;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 17px; 
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    line-height: 15pt;
+    text-indent: 40px;
+}
+
+.peter{
+    color: midnightblue;
+}
+
+.barett{
+    color: rgb(139, 63, 63);
+}
+
+.mayor{
+    color: rgb(34, 119, 91);
+}
+
+.ray{
+    color: hotpink;
+}
+
+.egon{
+    color: tomato;
+}
+
+.winston{
+    color: teal;
+}
+
+.bracket{
+    font-style: italic;
+}
+
+img{
+    max-width: 800px; 
+    max-height: 800px;
+   margin-left: 230pt;
+   
+}
+
+footer{
+    line-height: 100px;
+    text-indent: 40px;
+}
