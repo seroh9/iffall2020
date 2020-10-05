@@ -1,0 +1,94 @@
+
+header{
+    line-height: 10pt;
+}
+
+h1{
+    font-family: 'Crimson Text', serif;
+    text-indent: -1rem;
+    font-size: 50pt;
+    line-height: 2rem;
+}
+
+.info{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+body{
+    margin: 10%;
+    font-family: 'Crimson Text', serif;
+}
+
+p{
+    font-size: 24px;
+    margin-top: 0;
+}
+
+h2{
+    text-indent: -1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+    color: #633a97;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: normal;
+    color: #28b128;
+    margin-bottom: 0;
+}
+
+section{
+    margin: 5.5em 0;
+}
+
+.normal{
+    font-family: 'Crimson Text', serif;
+}
+
+.bold{
+    font-family: 'Crimson Text', serif;
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.spacing1{
+    letter-spacing: 0.3em;
+
+}
+
+.spacing2{
+    letter-spacing: -.06em;
+    
+}
+
+.underline{
+   text-decoration: underline;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+.overline{
+    text-decoration: overline;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.lowercase{
+    text-transform: lowercase;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
