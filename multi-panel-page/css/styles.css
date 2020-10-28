@@ -7,12 +7,12 @@ body{
 /* use inspect on google chrome to play with adjusement and placement on the screen */
 header{
     /* alpha on rgba is opacity */
-    background-color: rgba(255, 0,0, .5);
+    
     text-align: center;
     padding-top: 150px;
     height: 330px;
-    background-image: url(http://myfbcovers.com/uploads/somecovers/download/crayon-shin-chan-wallpaper_facebook_timeline_cover.jpg);
     background-size: cover;
+    background-color: rgb(247, 215, 130); 
 
 }
 
