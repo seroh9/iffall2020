@@ -1,0 +1,130 @@
+body{
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+/* do things in bite size details to check your mistakes and process as you go */
+/* put some padding on the box so there is nothing on the edges as if you are packing a box */
+/* use inspect on google chrome to play with adjusement and placement on the screen */
+header{
+    /* alpha on rgba is opacity */
+    background-color: rgba(255, 0,0, .5);
+    text-align: center;
+    padding-top: 150px;
+    height: 330px;
+    background-image: url(http://myfbcovers.com/uploads/somecovers/download/crayon-shin-chan-wallpaper_facebook_timeline_cover.jpg);
+    background-size: cover;
+
+}
+
+h1{
+font-size: 61pt;
+margin: 0;
+
+}
+
+h2{
+    font-size: 22pt;
+    margin: 0;
+}
+
+
+.column-container{ 
+    width: 960px;
+    margin: auto;
+}
+
+h3{
+    text-align: center;
+    font-size: 30pt;
+    margin-bottom: 30px;
+
+}
+p{
+    font-size: 14pt;
+   line-height: 16.5pt;
+}
+
+.section1{
+    background-color:rgba(42, 185, 241, 0.979);  
+    padding-top: 3px;
+    padding-bottom: 25px;
+    color: white;
+
+}
+
+.shinchan{
+    width: 400px;
+    height:300px;
+    float: right;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.shinchanpic{
+    float:left;
+    width:200px;
+    height: 150px;
+    padding-top: 5px; 
+    padding-bottom: 20px;
+    object-fit: cover;
+    margin-right:10px; 
+
+}
+
+h4{
+    font-size: 15pt;
+    font-weight: bold;
+    margin-bottom:2px; 
+    margin-top: 5px;
+    color: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    font-size:0; 
+    padding:0;
+}
+
+.phototitletext{
+font-size: 14pt;
+width: 90%;
+color: white;
+}
+
+.section2{
+    padding-top: 10px;
+    padding-bottom:30px;
+    background-color:rgb(38, 165, 106); 
+    color: white;
+     
+}
+
+.last{
+text-align: center;
+font-size: 19pt;
+line-height: 26pt;
+margin-left: 15%;
+margin-right: 15%;
+color: white;
+}
+
+.section3{
+    background-color:rgb(182, 25, 25); 
+    padding-top: 10px; 
+    padding-bottom:75px;
+    color: white;
+}
+
+.footerrights{
+    margin-top: 7%;
+    font-size: 13pt;
+
+}
+
+section.footer{
+    background-color:rgb(216, 90, 90);
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
