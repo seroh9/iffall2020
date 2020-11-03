@@ -1,0 +1,56 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: auto; margin-right: auto;
+    width: 90%;
+    max-width: 960px;
+}
+
+h1{
+    font-size: 30pt;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+h2{
+    font-size: 15pt;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    line-height: 26pt;
+}
+
+img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+ @media (min-width: 640px){
+    .grid{ display: flex;}
+
+}
+
+li{
+    font-size: 11pt;
+    line-height: 17pt;
+}
+
+ul{
+    padding-left: 0;
+    list-style-type: none;
+}
+.ingredients{
+    width: 50%;
+}
+
+.instructions{
+    width: 50%;
+}
+
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
