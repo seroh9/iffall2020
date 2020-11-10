@@ -1,0 +1,116 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: auto; margin-right: auto;
+    width: 90%;
+    max-width: 1000px;
+}
+
+h1{
+    font-size: 30pt;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    color: rgb(167, 105, 36);
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+h2{
+    font-size: 15pt;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    line-height: 26pt;
+}
+
+img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+ @media (min-width: 640px){
+    .grid{ display: flex;}
+
+}
+
+.ingredients li{
+    padding-right: 100px;
+    
+}
+
+
+li{
+    font-size: 13pt;
+    line-height: 23pt;
+    
+}
+
+ul{
+    padding-left: 0;
+    list-style-type: none;
+}
+.ingredients{
+    width: 50%;
+    padding: 2%;
+}
+
+.instructions{
+    padding: 2%;
+}
+
+.ingredients li{
+    list-style-type: square;
+}
+
+.instructions li{
+    padding: 10px;
+    font-size: 13pt;
+    line-height: 23pt;
+}
+
+.instructions{
+    width: 50%;
+}
+
+footer{
+    color: rgb(167, 105, 36);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 18pt;
+
+}
+
+h4{
+    font-weight: normal;
+    font-size: 13pt;
+    font-weight: 200;
+ 
+}
+
+em{
+    color: darkgray;
+}
+
+h3{
+    font-size: 18pt;
+    color: rgb(167, 105, 36);
+}
+
+
+.end{
+    font-size: 15pt;
+    list-style-type: none;
+    text-align: center;
+    font-weight: lighter;
+    color: rgb(167, 105, 36);
+}
+
+.food3{
+    padding-top: 100px;
+}
+
+.content{
+    padding-bottom: 20px;
+}
