@@ -1,0 +1,50 @@
+/* calling a class in a class */
+.static-example .positioned-element{
+    background-color: green;
+    left: 100px;
+}
+
+.relative-example .positioned-element{
+    background-color: lightblue;
+    position: relative;
+    left: 100px;
+    top: 50px;
+
+    /* z index makes box go under the text*/
+    z-index: -1;
+}
+
+.absolute-example .positioned-element{
+    background-color: red;
+    position: absolute; 
+    top: 0;
+    /* This will position it 0px from the right side of the parent container. */
+    right: 0;
+}
+
+.absolute-example{
+    /* makes the red box come into the relative section */
+    position: relative;
+   
+}
+
+.fixed-example .positioned-element{
+    /* We often see this technique used to keep a nav bar at the top of the screen. */
+    background-color: purple;
+    position: fixed;
+    top: 0; 
+    left:0; 
+    width: 100%;
+    /* As with other positioned elements, setting position: fixed; turns this element into a positioning-parent for its absolutely-positioned children, if it has them.as seen above */
+
+    /* z index makes ornage box not got up on the purple box,,,,, There's nothing magic about the number 9999, it's just a value that brings the navbar very far forward, with the hope that any other z-indexed items on the page will also pass beneath it.*/
+    z-index: 9999;
+}
+
+.sticky-example .positioned-element{
+    position: sticky;
+    background-color: orange;
+    top: 50px;
+    /* The square should stay right where it started on the page, until you scroll it up to the top. If you keep scrolling, you should see it pull away as this section leaves the page. As with other positioned elements, setting position: sticky; turns this element into a positioning-parent for its absolutely-positioned children, if it has them.*/
+
+}
