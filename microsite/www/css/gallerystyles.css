@@ -1,0 +1,126 @@
+body{
+    background-color: #ffffff;
+}
+
+header{
+    height: 150px;
+}
+
+h1{
+    font-family: aktiv-grotesk-condensed,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    color:white;
+    padding-left:75%; 
+    font-size:35px;
+}
+
+.star{
+ height:30px;
+ width: 30px; 
+
+}
+
+h1:hover .star{
+    transform: rotate(360deg);
+    transition: 2s;
+}
+
+
+ul {
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333333;
+    margin:0px; 
+}
+
+li {
+    display: inline;
+    float: left;
+    padding: 30px; 
+    padding-right: 8px;
+    font-family: aktiv-grotesk,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 15px;
+  }
+
+
+  .one{
+      padding-left: 0px;
+  }
+
+  @media (max-width: 1129px){
+    li {font-size: 12px; padding :1px; padding-top: 3px;} 
+    }
+
+    @media (max-width: 1129px){
+        h1{font-size: 20px; padding:20px;text-align: right;} 
+    }
+
+   
+  a {
+    display: block;
+    padding: 10px; 
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+    }
+
+    a:hover {
+        background-color: #272727;
+
+    }
+
+    .footer{
+        color: rgb(0, 0, 0);
+        font-family: aktiv-grotesk-condensed,sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    padding: 30px; 
+
+    }
+
+
+    h2{
+        font-family: aktiv-grotesk,sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: black;
+        margin-left: auto; margin-right: auto;
+        max-width: 800px;
+        text-align: center;
+        font-size: 60px;
+    }
+
+
+    .container{
+        max-width:1400px;
+        margin:auto;
+        margin-left: 5.8%;
+        overflow: auto;
+    }
+
+    .gallery{
+        margin:5px; 
+        float:left;
+        width: 300px; 
+
+    }
+
+    .gallery img{
+        width: 100%;
+        height:auto;
+
+
+    }
+
+ 
+  
+
+
+
+
